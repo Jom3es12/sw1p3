@@ -18,12 +18,12 @@ do
     name=$(echo "$data")
     
     
-echo "===============">> swipeLog.txt
-echo "Name: $name">> swipeLog.txt
-echo "Terminal: 1">> swipeLog.txt
-data>> swipeLog.txt
+echo "" >> swipeLog.txt
+echo "Name: $name" >> swipeLog.txt
+echo "Terminal: 1" >> swipeLog.txt
+date >> swipeLog.txt
 clear
-chmod 755 swipeLog.txt
+
 done
 
 

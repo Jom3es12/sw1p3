@@ -14,6 +14,9 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# The log
+swipeLog.txt
+
 # Windows shortcuts
 *.lnk
 
@@ -45,3 +48,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+swipeLog.txt
