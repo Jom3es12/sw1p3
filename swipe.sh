@@ -18,20 +18,20 @@ do
     name=$(echo "$data")
     
     
-echo "" >> swipeLog.txt
-echo "Name: $name" >> swipeLog.txt
-echo "Terminal: 1" >> swipeLog.txt
-date >> swipeLog.txt
-clear
+echo "--------------"&>> swipeLog.txt
+echo "Name: $name"&>> swipeLog.txt
+echo "Terminal: 1"&>> swipeLog.txt
+date&>> swipeLog.txt
+
 
 done
 
 
 #Format:
-# First_Last_Grade/teacher
+# First_Last_
 # ex. 
-#  John_Monroe_12
-#  Jane_Jackson_Teacher
+#  John_Monroe_
+#  Jane_Jackson_
 # Will of cours ehave symbols at beggining and end of the outputted data. 
 # Copyright (c) 2016 M3DevCorp for Solid Rock UPC
 # Licensed under the MIT License(MIT)

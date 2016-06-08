@@ -8,17 +8,21 @@ echo Swipe card
 echo ====================
 
  SET /p SN=Card- 
-echo ========== ========== >>swipeLog.txt
- echo %SN% %time% %date%  >>swipeLog.txt
-cls
+ set SN=%SN:~1,-2%
+ 
+echo -------------- >>swipeLog.txt
+ echo User: %SN% >>swipeLog.txt
+ echo Time: %time% %date%  >>swipeLog.txt
+ echo Terminal: 2 >>swipeLog.txt
+
 goto start
 
 
 ::Format:
-:: First_Last_Grade/teacher
+:: First_Last_
 :: ex. 
-::  John_Monroe_12
-::  Jane_Jackson_Teacher
+::  John_Monroe_
+::  Jane_Jackson_
 :: Will of cours ehave symbols at beggining and end of the outputted data. 
 :: Copyright (c) 2016 M3DevCorp for Solid Rock UPC
 :: Licensed under the MIT License(MIT)
