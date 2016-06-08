@@ -22,8 +22,8 @@ echo "===============">> swipeLog.txt
 echo "Name: $name">> swipeLog.txt
 echo "Terminal: 1">> swipeLog.txt
 data>> swipeLog.txt
-
-
+clear
+chmod 755 swipeLog.txt
 done
 
 

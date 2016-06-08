@@ -3,14 +3,14 @@ color 0a
  echo Begin program, ctrl+c to exit.
 :start
 
-echo ========== 
+echo ====================
 echo Swipe card
-echo ==========
+echo ====================
 
  SET /p SN=Card- 
 echo ========== ========== >>swipeLog.txt
  echo %SN% %time% %date%  >>swipeLog.txt
-
+cls
 goto start
 
 
